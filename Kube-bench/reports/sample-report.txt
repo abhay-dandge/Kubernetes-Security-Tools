@@ -1,0 +1,11 @@
+[INFO] 1 Control Plane Security Configuration
+
+[PASS] 1.1.1 API Server permissions
+
+[PASS] 1.1.2 API Server ownership
+
+[FAIL] 1.2.1 Anonymous authentication disabled
+
+[WARN] 1.2.2 Audit logging enabled
+
+[PASS] 1.2.3 Scheduler permissions
