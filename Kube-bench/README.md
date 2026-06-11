@@ -1,0 +1,176 @@
+# Kube-bench Demo
+
+A hands-on demonstration of Kube-bench for auditing Kubernetes clusters against the CIS Kubernetes Benchmark.
+
+## Project Overview
+
+Kube-bench is an open-source security auditing tool developed by Aqua Security. It checks whether Kubernetes is deployed according to the CIS Kubernetes Benchmark.
+
+This project demonstrates:
+
+- Kubernetes security auditing
+- CIS Benchmark compliance validation
+- Security report generation
+- Remediation of failed checks
+- DevSecOps best practices
+
+---
+
+## Repository Structure
+
+```text
+kube-bench-demo/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── docs/
+│   ├── kube-bench-demo-guide.pdf
+│   └── screenshots/
+│
+├── manifests/
+│   └── job.yaml
+│
+├── reports/
+│   ├── sample-report.txt
+│   ├── failed-checks.txt
+│   └── remediation-report.md
+│
+├── scripts/
+│   ├── run-scan.sh
+│   └── collect-results.sh
+│
+└── assets/
+    └── architecture.png
+```
+
+---
+
+## Architecture
+
+```text
++----------------------+
+| Kubernetes Cluster   |
++----------+-----------+
+           |
+           v
++----------------------+
+|      Kube-bench      |
++----------+-----------+
+           |
+           v
++----------------------+
+| CIS Benchmark Scan   |
++----------+-----------+
+           |
+           v
++----------------------+
+| Security Report      |
++----------------------+
+```
+
+---
+
+## Prerequisites
+
+- Kubernetes Cluster
+- kubectl
+- Cluster Admin Access
+
+---
+
+## Verify Cluster
+
+```bash
+kubectl get nodes
+```
+
+Expected Output:
+
+```text
+NAME       STATUS   ROLES           AGE
+minikube   Ready    control-plane   10d
+```
+
+---
+
+## Deploy Kube-bench
+
+```bash
+kubectl apply -f manifests/job.yaml
+```
+
+---
+
+## Verify Deployment
+
+```bash
+kubectl get jobs
+kubectl get pods
+```
+
+---
+
+## View Results
+
+```bash
+kubectl logs <pod-name>
+```
+
+---
+
+## Save Results
+
+```bash
+kubectl logs <pod-name> > reports/sample-report.txt
+```
+
+---
+
+## Example Output
+
+```text
+[PASS] API Server permissions
+[PASS] Scheduler configuration
+[FAIL] Anonymous Authentication
+[WARN] Audit Logging
+```
+
+---
+
+## Cleanup
+
+```bash
+kubectl delete -f manifests/job.yaml
+```
+
+---
+
+## Learning Outcomes
+
+- Kubernetes Security
+- CIS Benchmarks
+- Security Auditing
+- Compliance Validation
+- DevSecOps
+
+---
+
+## References
+
+- https://github.com/aquasecurity/kube-bench
+- https://www.cisecurity.org/benchmark/kubernetes
+- https://kubernetes.io/docs/
+
+---
+
+## Author
+
+### Abhay Dandge
+
+LinkedIn:
+https://www.linkedin.com/in/abhaydandge/
+
+GitHub:
+https://github.com/abhay-dandge
