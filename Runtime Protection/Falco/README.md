@@ -58,6 +58,7 @@ and generates alerts when suspicious activity is detected.
 ```bash
 ./scripts/install-falco.sh
 ```
+<img width="1119" height="436" alt="image" src="https://github.com/user-attachments/assets/45ce943d-c0ef-4fd9-a226-cfb82c389ceb" />
 
 ---
 
