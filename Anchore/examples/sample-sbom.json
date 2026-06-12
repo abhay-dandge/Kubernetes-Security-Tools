@@ -1,0 +1,13 @@
+{
+  "artifact": "nginx:latest",
+  "packages": [
+    {
+      "name": "openssl",
+      "version": "3.0.2"
+    },
+    {
+      "name": "curl",
+      "version": "8.2.1"
+    }
+  ]
+}
