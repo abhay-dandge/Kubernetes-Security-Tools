@@ -100,6 +100,7 @@ minikube   Ready    control-plane   10d
 ```bash
 kubectl apply -f manifests/job.yaml
 ```
+![kubectl apply -f manifests/job.yaml](https://raw.githubusercontent.com/abhay-dandge/Kubernetes-Security-Tools/9e9076ac7f7431f83b859d858c7d0c829812f2be/Kube-bench/docs/screenshots/kubectl%20apply%20-f%20manifests%20job.yaml.png)
 
 ---
 
