@@ -118,6 +118,10 @@ kubectl get pods
 ```bash
 kubectl logs <pod-name>
 ```
+<img width="853" height="393" alt="kubectl logs  pod-name" src="https://github.com/user-attachments/assets/4285c549-59c7-4cee-8a37-acac7ebe1f76" />
+
+<img width="649" height="540" alt="image" src="https://github.com/user-attachments/assets/8dc85a59-5485-4b89-ba40-86cb2c6f1d76" />
+
 
 ---
 
