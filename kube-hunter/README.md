@@ -109,6 +109,7 @@ kubectl apply -f manifests/job.yaml
 ```bash
 kubectl get pods
 ```
+<img width="987" height="123" alt="kubectl get pods" src="https://github.com/user-attachments/assets/d2f8001d-867c-417e-98fd-b8cbb131a522" />
 
 ---
 
