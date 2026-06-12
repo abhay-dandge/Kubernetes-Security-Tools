@@ -67,6 +67,7 @@ and generates alerts when suspicious activity is detected.
 ```bash
 kubectl get pods -n falco
 ```
+<img width="921" height="107" alt="image" src="https://github.com/user-attachments/assets/029ff0b1-03ea-481e-883c-887d02594066" />
 
 ---
 
@@ -75,6 +76,7 @@ kubectl get pods -n falco
 ```bash
 ./scripts/trigger-alert.sh
 ```
+<img width="918" height="512" alt="image" src="https://github.com/user-attachments/assets/8bd57218-9d73-4beb-bd78-a4bab727af3a" />
 
 ---
 
@@ -83,6 +85,7 @@ kubectl get pods -n falco
 ```bash
 kubectl logs -n falco -l app.kubernetes.io/name=falco
 ```
+<img width="1346" height="94" alt="image" src="https://github.com/user-attachments/assets/1c77a3e8-9a15-4212-9467-1299355354bf" />
 
 ---
 
