@@ -17,12 +17,10 @@ It scans Kubernetes environments from an attacker's perspective and identifies:
 
 ---
 ## Repository Structure
+```
 kube-hunter-demo/
-
 │
-
 ├── README.md
-
 ├── LICENSE
 ├── .gitignore
 │
@@ -59,7 +57,7 @@ kube-hunter-demo/
 └── examples/
     ├── sample-output.txt
     └── vulnerable-cluster-demo.md
-
+```
 ---
 
 ## Architecture
