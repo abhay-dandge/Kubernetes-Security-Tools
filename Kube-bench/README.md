@@ -119,7 +119,8 @@ kubectl get pods](https://raw.githubusercontent.com/abhay-dandge/Kubernetes-Secu
 ```bash
 kubectl logs <pod-name>
 ```
-
+![kubectl logs <pod-name>](<img width="975" height="566" alt="image" src="https://github.com/user-attachments/assets/dc768ce6-d451-4e33-893d-a1f0f5a7f2d9" />
+)
 ---
 
 ## Save Results
