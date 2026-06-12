@@ -83,7 +83,7 @@ kube-bench-demo/
 ```bash
 kubectl get nodes
 ```
-![Alt text describing the graphic](docs/screenshots/kubectl apply -f manifests job.yaml.png)
+![kubectl get nodes](https://raw.githubusercontent.com/abhay-dandge/Kubernetes-Security-Tools/9e9076ac7f7431f83b859d858c7d0c829812f2be/Kube-bench/docs/screenshots/kubectl%20get%20nodes.png)
 
 
 Expected Output:
