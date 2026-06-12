@@ -18,6 +18,51 @@ Anchore is a container security platform that helps organizations secure their s
 - CI/CD Security Integration
 
 ---
+## Anchore Demo - GitHub Repository Structure
+```
+anchore-demo/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── manifests/
+│   ├── anchore-engine.yaml
+│   └── namespace.yaml
+│
+├── docs/
+│   ├── Anchore-Demo-Guide.pdf
+│   ├── screenshots/
+│   │   ├── deployment.png
+│   │   ├── image-scan.png
+│   │   ├── vulnerabilities.png
+│   │   └── policy-check.png
+│   │
+│   └── presentation/
+│       └── anchore-demo.pptx
+│
+├── reports/
+│   ├── vulnerability-report.txt
+│   ├── compliance-report.txt
+│   ├── sbom-report.json
+│   └── remediation-report.md
+│
+├── scripts/
+│   ├── deploy-anchore.sh
+│   ├── scan-image.sh
+│   ├── generate-sbom.sh
+│   └── cleanup.sh
+│
+├── examples/
+│   ├── sample-scan-output.txt
+│   ├── sample-sbom.json
+│   └── vulnerable-image-demo.md
+│
+└── assets/
+    ├── architecture.png
+    └── workflow.png
+```
+---
 
 ## Architecture
 
