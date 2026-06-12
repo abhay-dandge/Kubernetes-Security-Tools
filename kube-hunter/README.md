@@ -18,8 +18,11 @@ It scans Kubernetes environments from an attacker's perspective and identifies:
 ---
 ## Repository Structure
 kube-hunter-demo/
+
 │
+
 ├── README.md
+
 ├── LICENSE
 ├── .gitignore
 │
