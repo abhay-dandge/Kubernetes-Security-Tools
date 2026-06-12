@@ -1,0 +1,13 @@
+{
+  "artifact": "nginx:latest",
+  "packages": [
+    {
+      "name": "openssl",
+      "version": "3.0.2"
+    },
+    {
+      "name": "libc6",
+      "version": "2.35"
+    }
+  ]
+}
