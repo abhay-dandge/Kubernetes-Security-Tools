@@ -1,0 +1,13 @@
+Nodes Discovered:
+192.168.1.10
+
+Services:
+Kubernetes API Server
+
+Findings:
+
+[High] Dashboard Exposed
+
+[Medium] Anonymous Authentication Enabled
+
+[Low] API Version Disclosure
