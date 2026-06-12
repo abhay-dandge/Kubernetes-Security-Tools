@@ -1,0 +1,5 @@
+08:35:22 Warning Shell spawned in container
+
+08:35:45 Warning Sensitive file accessed
+
+08:36:10 Warning Unexpected outbound connection
