@@ -2,7 +2,7 @@
 
 echo "Deploying suspicious pod..."
 
-kubectl apply -f ../manifests/suspicious-pod.yaml
+kubectl apply -f ./manifests/suspicious-pod.yaml
 
 echo "Waiting for pod to start..."
 
