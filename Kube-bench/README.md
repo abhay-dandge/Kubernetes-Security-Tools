@@ -110,7 +110,8 @@ kubectl apply -f manifests/job.yaml
 kubectl get jobs
 kubectl get pods
 ```
-
+![kubectl get jobs
+kubectl get pods](https://raw.githubusercontent.com/abhay-dandge/Kubernetes-Security-Tools/9e9076ac7f7431f83b859d858c7d0c829812f2be/Kube-bench/docs/screenshots/kubectl%20get%20jobs.png)
 ---
 
 ## View Results
