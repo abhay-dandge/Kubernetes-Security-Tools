@@ -37,12 +37,10 @@ kube-bench-demo/
 │   ├── failed-checks.txt
 │   └── remediation-report.md
 │
-├── scripts/
-│   ├── run-scan.sh
-│   └── collect-results.sh
-│
-└── assets/
-    └── architecture.png
+└── scripts/
+    ├── run-scan.sh
+    └── collect-results.sh
+
 ```
 
 ---
