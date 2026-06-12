@@ -1,4 +1,5 @@
 # Remediation Report
+<img width="645" height="550" alt="image" src="https://github.com/user-attachments/assets/c528f4df-d621-4cb5-af21-4407edbe367b" />
 
 ## Finding
 
