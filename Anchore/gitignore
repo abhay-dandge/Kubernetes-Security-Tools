@@ -1,0 +1,6 @@
+*.log
+*.tmp
+*.bak
+.vscode/
+.idea/
+reports/*.json
