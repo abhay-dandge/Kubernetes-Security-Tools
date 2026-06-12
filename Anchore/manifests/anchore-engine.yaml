@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anchore-engine
+  namespace: anchore
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: anchore
+  template:
+    metadata:
+      labels:
+        app: anchore
+    spec:
+      containers:
+      - name: anchore
+        image: anchore/anchore-engine:latest
+        ports:
+        - containerPort: 8228
