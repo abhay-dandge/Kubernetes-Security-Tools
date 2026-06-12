@@ -99,6 +99,8 @@ kube-hunter-demo/
 kubectl apply -f manifests/namespace.yaml
 kubectl apply -f manifests/job.yaml
 ```
+<img width="1074" height="134" alt="kubectl apply manifestsnamespace-yaml" src="https://github.com/user-attachments/assets/b547b981-8b51-4de2-ab5c-5e79d6576712" />
+
 
 ---
 
