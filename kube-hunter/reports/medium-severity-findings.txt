@@ -1,0 +1,11 @@
+[Medium]
+
+Anonymous Authentication Enabled
+
+Risk:
+Unauthenticated users may access API endpoints.
+
+Recommendation:
+Disable anonymous authentication.
+
+--anonymous-auth=false
