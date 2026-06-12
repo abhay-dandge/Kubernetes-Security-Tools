@@ -1,0 +1,10 @@
+Runtime Security Findings
+
+High:
+- Interactive shell inside container
+
+Medium:
+- Sensitive file access
+
+Low:
+- Outbound network connection
