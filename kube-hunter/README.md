@@ -29,15 +29,7 @@ kube-hunter-demo/
 │   └── namespace.yaml
 │
 ├── docs/
-│   ├── Kube-Hunter-Demo-Guide.pdf
-│   ├── screenshots/
-│   │   ├── cluster-overview.png
-│   │   ├── hunter-deployment.png
-│   │   ├── findings.png
-│   │   └── remediation.png
-│   │
-│   └── presentation/
-│       └── kube-hunter-demo.pptx
+│   └── screenshots/*
 │
 ├── reports/
 │   ├── scan-report.txt
@@ -45,18 +37,12 @@ kube-hunter-demo/
 │   ├── medium-severity-findings.txt
 │   └── remediation-report.md
 │
-├── scripts/
-│   ├── deploy-hunter.sh
-│   ├── collect-results.sh
-│   └── cleanup.sh
-│
-├── assets/
-│   ├── architecture.png
-│   └── workflow.png
-│
-└── examples/
-    ├── sample-output.txt
-    └── vulnerable-cluster-demo.md
+└── scripts/
+    ├── deploy-hunter.sh
+    ├── collect-results.sh
+    └── cleanup.sh
+
+
 ```
 ---
 
