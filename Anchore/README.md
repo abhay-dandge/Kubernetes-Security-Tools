@@ -1,4 +1,4 @@
-# deprecated
+# ❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌ deprecated ❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌
 # Anchore Demo
 
 A hands-on DevSecOps project demonstrating container image security scanning, SBOM generation, compliance validation, and policy enforcement using Anchore.
