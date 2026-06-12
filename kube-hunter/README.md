@@ -96,7 +96,7 @@ kube-hunter-demo/
 ## Deploy Kube-hunter
 
 ```bash
-kubectl apply -f namespace.yaml
+kubectl apply -f manifests/namespace.yaml
 kubectl apply -f manifests/job.yaml
 ```
 
