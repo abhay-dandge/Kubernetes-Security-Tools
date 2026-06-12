@@ -19,7 +19,7 @@ This project demonstrates:
 ## Repository Structure
 
 ```text
-kube-bench-demo/
+kube-bench/
 │
 ├── README.md
 ├── LICENSE
