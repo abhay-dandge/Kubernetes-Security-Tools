@@ -108,6 +108,7 @@ kubectl apply -f manifests/namespace.yaml
 
 kubectl apply -f manifests/anchore-engine.yaml
 ```
+<img width="916" height="128" alt="kubectl apply manifestsnamespace-yaml" src="https://github.com/user-attachments/assets/43d63e0d-a32b-4b71-9da7-f6c299c51c34" />
 
 ---
 
