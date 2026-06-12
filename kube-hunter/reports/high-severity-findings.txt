@@ -1,0 +1,9 @@
+[High]
+
+Kubernetes Dashboard Exposed
+
+Risk:
+Unauthorized access to cluster resources.
+
+Recommendation:
+Restrict dashboard access using RBAC and network policies.
