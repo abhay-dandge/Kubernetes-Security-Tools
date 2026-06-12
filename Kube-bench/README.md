@@ -83,6 +83,8 @@ kube-bench-demo/
 ```bash
 kubectl get nodes
 ```
+![Alt text describing the graphic](docs/screenshots/kubectl apply -f manifests job.yaml.png)
+
 
 Expected Output:
 
