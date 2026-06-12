@@ -1,0 +1,9 @@
+Policy Evaluation Result
+
+Status: PASS
+
+Checks:
+✓ No Critical CVEs Above Threshold
+✓ Approved Base Image
+✓ Signed Container Image
+✓ License Compliance
