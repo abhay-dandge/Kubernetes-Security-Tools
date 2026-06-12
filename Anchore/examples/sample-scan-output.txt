@@ -1,0 +1,14 @@
+Image Analysis Complete
+
+Image:
+nginx:latest
+
+Critical Vulnerabilities: 1
+
+High Vulnerabilities: 3
+
+Medium Vulnerabilities: 8
+
+Low Vulnerabilities: 14
+
+Policy Status: PASS
